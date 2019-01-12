@@ -11,8 +11,8 @@ class Author
     @posts << post
   end
   
-  def add_song_by_name(name)
-    self.add_song(Song.new name)
+  def add_song_by_title(title)
+    self.add_song(Song.new title)
   end
   
   def self.song_count
