@@ -12,10 +12,10 @@ class Author
   end
   
   def add_song_by_title(title)
-    self.add_song(Song.new title)
+    self.add_song(Post.new title)
   end
   
-  def self.song_count
-    Song.all.size
+  def self.post_count
+    Post.all.size
   end
 end
