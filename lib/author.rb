@@ -13,8 +13,8 @@ class Author
     @posts << post
   end
   
-  def add_song_by_title(title)
-    self.add_song(Post.new title)
+  def add_post_by_title(title)
+    self.add_post(Post.new title)
   end
   
   def self.post_count
